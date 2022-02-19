@@ -1,5 +1,3 @@
-#httptest
-
 ## About this service
 This service makes http request to the url , hash response and prints hash value
 
@@ -7,7 +5,7 @@ This service makes http request to the url , hash response and prints hash value
 - Semaphone(to restrict number of workers)
 - Decorator(Roundtrip)
 
-#Running and building project
+##Running and building project
 
 I have created a Make file to facilitate building and running the project
 
@@ -17,7 +15,7 @@ I have created a Make file to facilitate building and running the project
 make help
 ```
 
-#Build Project
+##Build Project
 
 ```shell
 make build
@@ -33,6 +31,7 @@ OR
 ```shell
 ./httptest -parallel 3 adjust.com google.com facebook.com yahoo.com yandex.com twitter.com reddit.com/r/funny reddit.com/r/notfunny baroquemusiclibrary.com
 ```
+OR
 
 ```shell
 ./httptest adjust.com
